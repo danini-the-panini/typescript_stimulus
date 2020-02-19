@@ -1,24 +1,19 @@
-# README
+# Rails + TypeScript + Stimulus Example App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A basic example of setting up TypeScript to work with Stimulus in a Rails project using Webpacker.
 
-Things you may want to cover:
+## Requirements
 
-* Ruby version
+1. ruby 2.5+
+2. bundler 2.1.2
+3. node (recommend version 12+)
+4. yarn
 
-* System dependencies
+## Setup
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. `git clone https://github.com/jellymann/typescript_stimulus.git`
+2. `cd typescript_stimulus`
+2. `bundle install`
+3. `bin/yarn`
+4. `bin/rails server`
+5. open `http://localhost:3000` in your favourite browser
